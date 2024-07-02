@@ -10,7 +10,7 @@ from src.mcqgenerator.mcqgenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
 
-#loading json file
+#loading json file from root
 
 with open('Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
